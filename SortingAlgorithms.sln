@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srs", "srs", "{16ECD4D3-9401-44DE-934D-70789037493B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5A809034-9DC4-4076-844A-EF3B57BE4CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms.Core", "srs\SortingAlgorithms.Core\SortingAlgorithms.Core.csproj", "{5FCCBAE7-A5FC-4694-9658-889DAC7D2690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms.Console", "srs\SortingAlgorithms.Console\SortingAlgorithms.Console.csproj", "{367836CB-B27A-4CAB-8318-9890B050FE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{961DBB25-AF58-4FA8-B499-1D2377C70096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms.Core.Tests.Unit", "tests\unit\SortingAlgorithms.Core.Tests.Unit\SortingAlgorithms.Core.Tests.Unit.csproj", "{105E813A-A299-4B70-A77F-272B269CBE82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{AF3616F0-578F-4A22-9585-DFF2600C4ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms.Core.Tests.Integration", "tests\integration\SortingAlgorithms.Core.Tests.Integration\SortingAlgorithms.Core.Tests.Integration.csproj", "{8D5E85A9-57C1-4873-BA65-41253F566183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FCCBAE7-A5FC-4694-9658-889DAC7D2690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCCBAE7-A5FC-4694-9658-889DAC7D2690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCCBAE7-A5FC-4694-9658-889DAC7D2690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCCBAE7-A5FC-4694-9658-889DAC7D2690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367836CB-B27A-4CAB-8318-9890B050FE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367836CB-B27A-4CAB-8318-9890B050FE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367836CB-B27A-4CAB-8318-9890B050FE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367836CB-B27A-4CAB-8318-9890B050FE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105E813A-A299-4B70-A77F-272B269CBE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105E813A-A299-4B70-A77F-272B269CBE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105E813A-A299-4B70-A77F-272B269CBE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105E813A-A299-4B70-A77F-272B269CBE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5E85A9-57C1-4873-BA65-41253F566183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5E85A9-57C1-4873-BA65-41253F566183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5E85A9-57C1-4873-BA65-41253F566183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5E85A9-57C1-4873-BA65-41253F566183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FCCBAE7-A5FC-4694-9658-889DAC7D2690} = {16ECD4D3-9401-44DE-934D-70789037493B}
+		{367836CB-B27A-4CAB-8318-9890B050FE23} = {16ECD4D3-9401-44DE-934D-70789037493B}
+		{961DBB25-AF58-4FA8-B499-1D2377C70096} = {5A809034-9DC4-4076-844A-EF3B57BE4CF1}
+		{105E813A-A299-4B70-A77F-272B269CBE82} = {961DBB25-AF58-4FA8-B499-1D2377C70096}
+		{AF3616F0-578F-4A22-9585-DFF2600C4ED0} = {5A809034-9DC4-4076-844A-EF3B57BE4CF1}
+		{8D5E85A9-57C1-4873-BA65-41253F566183} = {AF3616F0-578F-4A22-9585-DFF2600C4ED0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41D7297E-D794-4C0C-891E-DDBB637CAEF4}
+	EndGlobalSection
+EndGlobal
